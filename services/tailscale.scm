@@ -1,4 +1,4 @@
-(define-module (services tailscale)
+(define-module (guix-stallmer services tailscale)
 	       #:use-module (gnu services)
 	       #:use-module (gnu services shepherd)
 	       #:use-module (gnu services configuration)
