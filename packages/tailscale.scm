@@ -1,10 +1,10 @@
-(define-module (guix-stallmer packages tailscale)
-	       #:use-module (guix packages)
-               #:use-module (gnu packages linux)
-	       #:use-module (guix gexp)
-	       #:use-module (guix build-system copy)
-	       #:use-module (guix download)
-	       #:use-module (guix licenses))
+(define-module (packages tailscale)
+  #:use-module (guix packages)
+  #:use-module (gnu packages linux)
+  #:use-module (guix gexp)
+  #:use-module (guix build-system copy)
+  #:use-module (guix download)
+  #:use-module (guix licenses))
 
 (define-public tailscale
   (package
